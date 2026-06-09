@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us — TechGenius Solution</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-tech">Tech</span><span class="logo-genius">Genius</span><span class="logo-sub">Solution</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="team.html">Team</a><a href="projects.html">Projects</a><a href="events.html">Events</a><a href="partners.html">Partners</a><a href="careers.html">Careers</a><a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn-cta">Get Started</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get in <span class="gradient-text">Touch</span></h1>
+      <p>Whether you have a project idea, want to partner with us, or need training — reach out and let's start the conversation.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>We're Always Ready to Talk</h2>
+          <p>No matter what stage you're at — idea, planning, or ready to launch — we're here to help you move forward with confidence.</p>
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div class="info-text">
+                <strong>Phone</strong>
+                <span>+255 782 536 085</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📧</div>
+              <div class="info-text">
+                <strong>Email</strong>
+                <span>haithamjr17@gmail.com</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div class="info-text">
+                <strong>Address</strong>
+                <span>Njiro Hill, Arusha, Tanzania</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📮</div>
+              <div class="info-text">
+                <strong>P.O. Box</strong>
+                <span>2798, Arusha</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🕐</div>
+              <div class="info-text">
+                <strong>Office Hours</strong>
+                <span>Mon–Fri | 8:00 AM – 5:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:2rem;">
+            <p style="color:var(--gray);font-size:.88rem;margin-bottom:.75rem;font-family:var(--font-h);font-weight:600;text-transform:uppercase;letter-spacing:.06em;">Follow Us Online</p>
+            <div class="social-links" style="justify-content:flex-start;">
+              <a href="https://instagram.com/techgenius_tz" target="_blank" style="width:auto;padding:.4rem .9rem;font-size:.8rem;">Instagram</a>
+              <a href="https://facebook.com/techgenius_tz" target="_blank" style="width:auto;padding:.4rem .9rem;font-size:.8rem;">Facebook</a>
+              <a href="https://linkedin.com/company/techgenius_tz" target="_blank" style="width:auto;padding:.4rem .9rem;font-size:.8rem;">LinkedIn</a>
+              <a href="https://tiktok.com/@techgenius_tz" target="_blank" style="width:auto;padding:.4rem .9rem;font-size:.8rem;">TikTok</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="color:var(--navy);font-size:1.3rem;margin-bottom:1.5rem;">Send Us a Message</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Full Name *</label>
+                <input type="text" id="fname" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+255 7XX XXX XXX">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>Select a topic</option>
+                  <option>General Inquiry</option>
+                  <option>Digital Marketing</option>
+                  <option>AI & Automation</option>
+                  <option>Training & Workshops</option>
+                  <option>Career Guidance</option>
+                  <option>Partnership</option>
+                  <option>Careers & Internships</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project, question, or how we can help you..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;justify-content:center;padding:1rem;font-size:1rem;">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="map-section">
+        <h3>Find Us</h3>
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.1!2d36.68!3d-3.37!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sTechGenius+Solution%2C+Njiro+Hill%2C+Arusha!5e0!3m2!1sen!2stz!4v1!5m2!1sen!2stz"
+            width="100%" height="400" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="TechGenius Solution Location - Njiro Hill, Arusha">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col"><div class="footer-logo"><span class="logo-tech">Tech</span><span class="logo-genius">Genius</span> Solution</div><p class="footer-tagline">Turning Ideas into Intelligent Solutions</p><div class="social-links"><a href="#">IG</a><a href="#">FB</a><a href="#">LI</a><a href="#">TW</a><a href="#">TK</a></div></div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="team.html">Team</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Our Services</h4><ul><li><a href="services.html">Career Guidance</a></li><li><a href="services.html">Digital Marketing</a></li><li><a href="services.html">Automation</a></li><li><a href="services.html">Data Analytics</a></li><li><a href="services.html">AI Tools</a></li></ul></div>
+      <div class="footer-col"><h4>Contact Info</h4><ul class="contact-list"><li>📞 +255 782 536 085</li><li>📧 haithamjr17@gmail.com</li><li>📍 Njiro Hill, Arusha, Tanzania</li><li>📮 P.O. Box 2798, Arusha</li><li>🕐 Mon–Fri | 8:00 AM – 5:00 PM</li></ul></div>
+    </div>
+    <div class="footer-bottom"><div class="container">© 2026 TechGenius Solution. All Rights Reserved. &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></div></div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

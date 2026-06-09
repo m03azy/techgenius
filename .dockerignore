@@ -1,0 +1,13 @@
+# Dependencies / build artifacts
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Editor files
+.vscode
+
+# Cloud / local configs
+*.env
+
